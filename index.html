@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    
+    <embed id="all_valid_words" src="Assets/valid-wordle-words.txt" type="text/plain" style="display: none;">
+    
+    <div class="Word_spaces">
+        <div class="Row_1">
+            <div class="Cell_1_1">
+                <div class="Letter_1_1">a</div>
+            </div>
+            <div class="Cell_1_2">
+                <div class="Letter_1_2">a</div>
+            </div>
+            <div class="Cell_1_3">
+                <div class="Letter_1_3">a</div>
+            </div>
+            <div class="Cell_1_4">
+                <div class="Letter_1_4">a</div>
+            </div>
+            <div class="Cell_1_5">
+                <div class="Letter_1_5">a</div>
+            </div>
+        </div>
+
+        <div class="Row_2">
+            <div class="Cell_2_1">
+                <div class="Letter_2_1">a</div>
+            </div>
+            <div class="Cell_2_2">
+                <div class="Letter_2_2">a</div>
+            </div>
+            <div class="Cell_2_3">
+                <div class="Letter_2_3">a</div>
+            </div>
+            <div class="Cell_2_4">
+                <div class="Letter_2_4">a</div>
+            </div>
+            <div class="Cell_2_5">
+                <div class="Letter_2_5">a</div>
+            </div>
+        </div>
+
+        <div class="Row_3">
+            <div class="Cell_3_1">
+                <div class="Letter_3_1">a</div>
+            </div>
+            <div class="Cell_3_2">
+                <div class="Letter_3_2">a</div>
+            </div>
+            <div class="Cell_3_3">
+                <div class="Letter_3_3">a</div>
+            </div>
+            <div class="Cell_3_4">
+                <div class="Letter_3_4">a</div>
+            </div>
+            <div class="Cell_3_5">
+                <div class="Letter_3_5">a</div>
+            </div>
+        </div>
+
+        <div class="Row_4">
+            <div class="Cell_4_1">
+              <div class="Letter_4_1">a</div>
+            </div>
+            <div class="Cell_4_2">
+              <div class="Letter_4_2">a</div>
+            </div>
+            <div class="Cell_4_3">
+              <div class="Letter_4_3">a</div>
+            </div>
+            <div class="Cell_4_4">
+              <div class="Letter_4_4">a</div>
+            </div>
+            <div class="Cell_4_5">
+              <div class="Letter_4_5">a</div>
+            </div>
+        </div>
+
+        <div class="Row_5">
+            <div class="Cell_5_1">
+              <div class="Letter_5_1">a</div>
+            </div>
+            <div class="Cell_5_2">
+              <div class="Letter_5_2">a</div>
+            </div>
+            <div class="Cell_5_3">
+              <div class="Letter_5_3">a</div>
+            </div>
+            <div class="Cell_5_4">
+              <div class="Letter_5_4">a</div>
+            </div>
+            <div class="Cell_5_5">
+              <div class="Letter_5_5">a</div>
+            </div>
+        </div>
+
+        <div class="Row_6">
+            <div class="Cell_6_1">
+              <div class="Letter_6_1">a</div>
+            </div>
+            <div class="Cell_6_2">
+              <div class="Letter_6_2">a</div>
+            </div>
+            <div class="Cell_6_3">
+              <div class="Letter_6_3">a</div>
+            </div>
+            <div class="Cell_6_4">
+              <div class="Letter_6_4">a</div>
+            </div>
+            <div class="Cell_6_5">
+              <div class="Letter_6_5">a</div>
+            </div>
+        </div>
+        
+    </div>
+
+
+        
+
+
+
+
+            
+
+    <div class="keyboard">
+        <div class="keyboard_top_row">
+            <div class="Q_key" onclick="Q_key()">
+                <div class="Q_letter">Q</div>
+            </div>
+            <div class="W_key" onclick="W_key()">
+                <div class="W_letter">W</div>
+            </div>
+            <div class="E_key" onclick="E_key()">
+                <div class="E_letter">E</div>
+            </div>
+            <div class="R_key" onclick="R_key()">
+                <div class="R_letter">R</div>
+            </div>
+            <div class="T_key" onclick="T_key()">
+                <div class="T_letter">T</div>
+            </div>
+              <div class="Y_key" onclick="Y_key()">
+                <div class="Y_letter">Y</div>
+            </div>
+            <div class="U_key" onclick="U_key()">
+                <div class="U_letter">U</div>
+            </div>
+            <div class="I_key" onclick="I_key()">
+                <div class="I_letter">I</div>
+            </div>
+            <div class="O_key" onclick="O_key()">
+                <div class="O_letter">O</div>
+            </div>
+            <div class="P_key" onclick="P_key()">
+                <div class="P_letter">P</div>
+            </div>
+        </div>
+        <div class="keyboard_mid_row">
+            <div class="A_key" onclick="A_key()">
+              <div class="A_letter">A</div>
+            </div>
+            <div class="S_key" onclick="S_key()">
+              <div class="S_letter">S</div>
+            </div>
+            <div class="D_key" onclick="D_key()">
+              <div class="D_letter">D</div>
+            </div>
+            <div class="F_key" onclick="F_key()">
+              <div class="F_letter">F</div>
+            </div>
+            <div class="G_key" onclick="G_key()">
+              <div class="G_letter">G</div>
+            </div>
+            <div class="H_key" onclick="H_key()">
+              <div class="H_letter">H</div>
+            </div>
+            <div class="J_key" onclick="J_key()">
+              <div class="J_letter">J</div>
+            </div>
+            <div class="K_key" onclick="K_key()">
+              <div class="K_letter">K</div>
+            </div>
+            <div class="L_key" onclick="L_key()">
+              <div class="L_letter">L</div>
+            </div>
+        </div>
+        <div class="keyboard_bottom_row">
+            <div class="Enter_key" onclick="Enter_key()">
+              <div class="Enter_letter">ENTER</div>
+            </div>
+            <div class="Z_key" onclick="Z_key()">
+              <div class="Z_letter">Z</div>
+            </div>
+            <div class="X_key" onclick="X_key()">
+              <div class="X_letter">X</div>
+            </div>
+            <div class="C_key" onclick="C_key()">
+              <div class="C_letter">C</div>
+            </div>
+            <div class="V_key" onclick="V_key()">
+              <div class="V_letter">V</div>
+            </div>
+            <div class="B_key" onclick="B_key()">
+              <div class="B_letter">B</div>
+            </div>
+            <div class="N_key" onclick="N_key()">
+              <div class="N_letter">N</div>
+            </div>
+            <div class="M_key" onclick="M_key()">
+              <div class="M_letter">M</div>
+            </div>
+            <div class="Backspace_key" onclick="Backspace_key()">
+              <div class="Backspace_letter">⌫</div>
+            </div>
+          </div>    
+    </div>  
+
+        <script defer src="/scripts/app.js"></script>
+
+</body>
+</html>
