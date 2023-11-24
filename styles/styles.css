@@ -3,7 +3,6 @@ h1 {
     position: fixed;
     font-size: 80px;
     left: 580px;
-
 }
 
 .Word_spaces {
@@ -28,7 +27,7 @@ h1 {
     gap: 5px; 
     margin-top: 5px;
     margin-bottom: 5px;
-    display: inline-flex"
+    display: inline-flex
 }
 
 .Cell_1_1 {
@@ -42,8 +41,7 @@ h1 {
 }
 
 .Letter_1_1 {
-    opacity: 0; 
-    color: white; 
+    color: black;
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -63,8 +61,7 @@ h1 {
 }
 
 .Letter_1_2 {
-    opacity: 0; 
-    color: white; 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -83,9 +80,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_1_3 {
-    opacity: 0; 
-    color: white; 
+.Letter_1_3 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -104,9 +100,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_1_4 {
-    opacity: 0; 
-    color: white; 
+.Letter_1_4 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -125,9 +120,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_1_5 {
-    opacity: 0; 
-    color: white; 
+.Letter_1_5 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -157,9 +151,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_2_1 {
-    opacity: 0; 
-    color: white; 
+.Letter_2_1 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -178,9 +171,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_2_2 {
-    opacity: 0; 
-    color: white; 
+.Letter_2_2 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -199,9 +191,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_2_3 {
-    opacity: 0; 
-    color: white; 
+.Letter_2_3 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -220,9 +211,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_2_4 {
-    opacity: 0; 
-    color: white; 
+.Letter_2_4 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -241,9 +231,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_2_5 {
-    opacity: 0; 
-    color: white; 
+.Letter_2_5 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -273,9 +262,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_3_1 {
-    opacity: 0; 
-    color: white; 
+.Letter_3_1 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -295,8 +283,7 @@ h1 {
 }
 
 .Letter_3_2 {
-    opacity: 0; 
-    color: white; 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -315,9 +302,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_3_3 {
-    opacity: 0; 
-    color: white; 
+.Letter_3_3 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -337,8 +323,7 @@ h1 {
 }
 
 .Letter_3_4 {
-    opacity: 0; 
-    color: white; 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -358,8 +343,7 @@ h1 {
 }
 
 .Letter_3_5 {
-    opacity: 0; 
-    color: white; 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -389,9 +373,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_4_1 {
-    opacity: 0; 
-    color: white; 
+.Letter_4_1 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -410,9 +393,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_4_2 {
-    opacity: 0; 
-    color: white; 
+.Letter_4_2 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -431,9 +413,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_4_3 {
-    opacity: 0; 
-    color: white; 
+.Letter_4_3 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -452,9 +433,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_4_4 {
-    opacity: 0; 
-    color: white; 
+.Letter_4_4 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -473,9 +453,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_4_5 {
-    opacity: 0; 
-    color: white; 
+.Letter_4_5 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -506,8 +485,7 @@ h1 {
 }
 
 .Letter_5_1 {
-    opacity: 0; 
-    color: white; 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -526,9 +504,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_5_2 {
-    opacity: 0; 
-    color: white; 
+.Letter_5_2 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -547,9 +524,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_5_3 {
-    opacity: 0; 
-    color: white; 
+.Letter_5_3 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -568,9 +544,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_5_4 {
-    opacity: 0; 
-    color: white; 
+.Letter_5_4 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -589,9 +564,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_5_5 {
-    opacity: 0; 
-    color: white; 
+.Letter_5_5 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -621,9 +595,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_6_1 {
-    opacity: 0; 
-    color: white; 
+.Letter_6_1 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -642,9 +615,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_6_2 {
-    opacity: 0; 
-    color: white; 
+.Letter_6_2 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -663,9 +635,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_6_3 {
-    opacity: 0; 
-    color: white; 
+.Letter_6_3 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -684,9 +655,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_6_4 {
-    opacity: 0; 
-    color: white; 
+.Letter_6_4 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
@@ -705,9 +675,8 @@ h1 {
     display: inline-flex
 }
 
-.Letter_6_5 {
-    opacity: 0; 
-    color: white; 
+.Letter_6_5 { 
+    color: black; 
     font-size: 32px; 
     font-family: Arial; 
     font-weight: 700; 
