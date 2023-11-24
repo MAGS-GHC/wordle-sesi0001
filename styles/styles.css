@@ -5,6 +5,18 @@ h1 {
     left: 580px;
 }
 
+.correct {
+    background-color: green;
+}
+
+.semi_correct {
+    background-color: yellow;
+}
+
+.non_correct {
+    background-color: grey;
+}
+
 .Word_spaces {
     position: fixed;
     width: 391px; 
